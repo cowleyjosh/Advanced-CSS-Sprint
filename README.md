@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+responsive website will adapt to screen size as site is viewed on different devices automatically to provide best viewing expierence.
+Adaptive website has set layouts for each device and will detect what device is being used when entering the webiste and provides the necessary layout from server.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+mobile first means you design the site in regards to a min width to match the mobile design before moving onto desktop.
+Desktop first means you design the site using full screen widths too mtach desktop sizing before using meda queirs for mobile breakpoints.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+100% makes calculations difficult. Setting 62.5% makes calculations easier as it is 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the mthod of writing all css styles into smaller managable files that can be then compiled into one large css file with all stylings for the site. Also when using preprocessors you can use nesting which saves time as you dont have to type out as much.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept of pre  processing was how easy it is to mange. It is alot easier to go through different less files to find a specif code section then scrolling through one file looking for a specific style.
+
+The concept that gave me the most troouble was nesting. I kept running into issue where i was putting curly brackts in the wrong places and closing sections off to early. I think i have gotten the hang of it now as i did not run into to much trouble during teh sprint.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -104,21 +118,21 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [X] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [X] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [X]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [X] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [X] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [X] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [X] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

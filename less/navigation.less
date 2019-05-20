@@ -1,11 +1,8 @@
 .nav-border {
+  .flexcol();
   border-bottom: 1px solid @nav-border;
   background-color: @nav-bg;
   height: 130px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   h1 {
     color: @header-font-color;
@@ -17,11 +14,9 @@
 
 .nav-content {
   nav {
+    .navflex();
     margin-top: 2rem;
     font-size: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
     a {
       text-decoration: none;
